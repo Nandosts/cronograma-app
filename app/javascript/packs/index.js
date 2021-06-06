@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-// import 'bootstrap/dist/css/boostrap.css' 
+import Popper from 'popper.js';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import App from '../Components/App'
 

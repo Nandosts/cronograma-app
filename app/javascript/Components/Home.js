@@ -1,6 +1,4 @@
 import React from 'react'
-import About from './About';
-import Contact from './Contact';
 import { BrowserRouter as Router, Link } from 'react-router-dom'
 
 
@@ -11,6 +9,10 @@ function Home() {
             <Link to={`/about`}>About</Link>
             <br></br>
             <Link to={`/contact`}>Contact</Link>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
+              Tooltip with HTML
+            </button>
+
         </>    
     )
 }
